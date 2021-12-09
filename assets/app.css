@@ -10,6 +10,7 @@
 }
 
 .wrapper {
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +19,7 @@
   background: url(./bg.jpg) no-repeat center / cover;
 }
 
-.wolfpack {
+.text {
   width: 100%;
   height: auto;
   font-family: cyberpunk;
@@ -30,13 +31,36 @@
   align-items: center;
 }
 
-.wolfpack h1 {
+.text h1 {
   max-width: 100%;
   font-size: 200px;
 
   text-shadow: 30px 30px #000;
   animation: jump 1s forwards alternate infinite linear;
 }
+.wolfpack{
+  margin-top: 150px;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+
+}
+
+.wolfpack a{
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid currentColor;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;  
+  font-weight: bold;
+}
+
+.wolfpack a:hover{
+  color: black;
+  background-color: white;
+}
+
 
 @keyframes jump {
   from {
@@ -48,12 +72,12 @@
 }
 
 @media only screen and (min-width: 320px) {
-  .wolfpack h1{
+  .text h1{
     font-size: 50px;
   }
  }
  @media only screen and (min-width: 1024px) {
-  .wolfpack h1{
+  .text h1{
     font-size: 200px;
   }
  }
