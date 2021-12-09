@@ -71,9 +71,16 @@
   }
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
   .text h1{
     font-size: 50px;
+  }
+  .wolfpack{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .wolfpack__item{
+    margin-bottom: 20px;
   }
  }
  @media only screen and (min-width: 1024px) {
