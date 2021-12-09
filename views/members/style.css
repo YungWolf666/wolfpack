@@ -109,7 +109,7 @@
     margin-bottom: 100px;
   }
   .card__socials {
-    visibility: unset;
+    visibility:visible;
   }
   .card__back {
     position: absolute;
