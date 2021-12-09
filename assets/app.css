@@ -71,7 +71,7 @@
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
   .text h1{
     font-size: 50px;
   }
